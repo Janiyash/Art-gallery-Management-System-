@@ -3,7 +3,7 @@ session_start();
 require_once "includes/db.php";
 include "includes/header.php";
 require_once "includes/mail.php";   // <-- IMPORTANT (Load your mail system)
-
+ 
 // CONTACT FORM HANDLER
 $success_msg = "";
 $error_msg = "";
@@ -237,6 +237,7 @@ if (isset($_POST['send_contact'])) {
 
 
 <?php include "includes/footer.php"; ?>
+
 
 
 

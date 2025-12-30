@@ -217,7 +217,7 @@ if (isset($_POST['send_contact'])) {
     </button>
 
   </div>
-
+ 
 </div>
 <?php endif; ?>
 <script>
@@ -237,3 +237,4 @@ if (isset($_POST['send_contact'])) {
 
 
 <?php include "includes/footer.php"; ?>
+

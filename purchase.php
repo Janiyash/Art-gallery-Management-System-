@@ -1,4 +1,4 @@
-                                                                                                      <?php
+                                                                                                    <?php
 session_start();
 require "includes/db.php";
 require "includes/mail.php";
@@ -193,6 +193,7 @@ include "includes/header.php";
 
 
 <?php include "includes/footer.php"; ?>
+
 
 
 
